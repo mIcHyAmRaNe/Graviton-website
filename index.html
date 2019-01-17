@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" width="device-width" height="device-height" content="initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+    <title>Graviton Code Editor</title>
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/graviton-font.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  </head>
+  <body>
+    <nav id="mainNav">
+      <div><i onclick="location.reload();" class="g-graviton"></i></div>
+      <ul>
+        <li rel="introduction" class="button active" page="introduction"><a href="#introduction">Introduction</a></li>
+        <li onclick="window.open('/docs')" rel="docs_section" class="button" page="docs"><a href="#docs_section">Docs</a></li>
+        <li rel="themes" class="button" page="introduction"><a href="#themes">Themes</a></li>
+        <li rel="project" class="button" page="introduction"><a href="#project">Project</a></li>
+        <li rel="donate" class="button" page="introduction"><a href="#donate">Donate</a></li>
+      </ul>
+      <div><i onclick="window.open('https://github.com/Graviton-Code-Editor/Graviton-App')" class="g-github-solid"></i></div>
+    </nav>
+    <header class="pageBlock" id="introduction">
+      <div class="headerSide left">
+        <h1>Graviton</h1>
+        <h2>Your new code editor.</h2>
+        <p><b>Graviton</b> is a <b>free and open source</b> code editor available on <b>Windows</b> and <b>Linux</b>.</p>
+        <p class="highlight">Get it now!</p>
+        <div class="download">
+          <button type="button" name="button" onclick="window.open('https://github.com/Graviton-Code-Editor/Graviton-App/releases')"><i class="g-arrow-down"></i> Dowload</button>
+          <span>0.7.0 beta version</span>
+        </div>
+      </div><!--
+   --><div class="headerSide right">
+        <div class="laptop"></div>
+      </div>
+    </header>
+    <section class="f-section" id="features">
+      <div class="cardContainner">
+        <div class="cardGroup">
+          <div class="card">
+            <i class="g-layers"></i>
+            <h3>Customizable</h3>
+            <p>With Graviton you have a wide catalog of official layouts and themes developed by our developer community.</p>
+          </div>
+          <div class="card">
+            <i class="g-zap"></i>
+            <h3>Fast & light-weight</h3>
+            <p>We offer you a compact, minimalist and efficient code, so you get the best performance with the least sacrifice.</p>
+          </div>
+          <div class="card">
+            <i class="g-code"></i>
+            <h3>Open Source</h3>
+            <p>Gravit is Open Source and is licensed under the MIT license, so you can contribute, copy and use the code as you wish.</p>
+          </div>
+        </div>
+        <div class="cardGroup">
+          <div class="card">
+            <i class="g-bar-chart-2"></i>
+            <h3>Time-Spent Review</h3>
+            <p>Optimize your time by viewing the statistics of your time and administer it according to your needs.</p>
+          </div>
+          <div class="card">
+            <i class="g-command"></i>
+            <h3>Multi Platform</h3>
+            <p>You can install Graviton on the most popular operating systems, with the same perfect performance.</p>
+          </div>
+          <div class="card">
+            <i class="g-terminal"></i>
+            <h3>Always In Development</h3>
+            <p>Since we are open source, we will always be in improvements and development.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pageBlock f-section" id="docs_section">
+      <div class="content" >
+        <h1>Read the Docs</h1>
+        <h3>Learn how to work with Graviton by reading our complete guides and start conding your awesome projects!</h3>
+        <button onclick="window.open('/docs')" type="button" name="button"><i class="g-play"></i> Start Now</button>
+      </div>
+    </section>
+    <section class="pageBlock f-section" id="themes">
+      <h1>Themes</h1>
+      <div class="waveContainner">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+          <path d="M-3.10,37.00 C148.14,157.39 349.20,-49.98 500.27,73.52 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #FF1A68;"/>
+        </svg>
+      </div>
+      <div id="themes" class="content" >
+        <div class="themeCards">
+          <h2>Seems like there's nothing here :(</h2>
+        </div>
+        <div class="buttonContainner">
+          <div class="submit">
+            <a href="#">Want to make yours?</a>
+            <button type="button" name="button">Submit</button>
+          </div>
+        </div>
+      </div>
+      <div class="waveContainner">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+          <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #FF1A68;"/>
+        </svg>
+      </div>
+    </section>
+    <section class="pageBlock" id="project">
+      <h1 onclick="window.open('https://github.com/Graviton-Code-Editor/Graviton-App')">This project lives at <i class="g-github-solid"></i></h1>
+    </section>
+    <section class="pageBlock" id="donate">
+      <div class="banner">
+        <h1>Do you want to contribute with this project?</h1>
+      </div>
+      <div class="content">
+        <div class="side left bePart">
+          <div class="card">
+            <h1>Be part of this!</h1>
+            <p>We would be so happy if you contribute to improve Graviton. There are many different ways to help us with. The only way you can help (by now) is by creating pulls requests on the project Repository.</p>
+            <p>Things which you can contribute on:</p>
+            <ul>
+              <li><i class="g-edit-2"></i>  Translating in other languages or improve one.</li>
+              <li><i class="g-plus-circle"></i>  Request a new feature.</li>
+              <li><i class="g-alert-octagon"></i>  Fix or report bugs and glitches.</li>
+              <li><i class="g-code"></i>  Improve some script or UI/UX design.</li>
+              <li><i class="g-package"></i>  Create your own themes and plugins.</li>
+            </ul>
+            <button onclick="window.open('https://github.com/Graviton-Code-Editor/Graviton-App/compare')" type="button" name="button"><i class="g-git-pull-request"></i> Make a pull</button>
+          </div>
+        </div><!--
+     --><div class="side right paypal">
+          <div class="card">
+            <h1>Buy a coffee!</h1>
+            <p>You can support graviton by donating some money via PayPal, in this way we can continue developing and dedicating time to great quality free software.</p>
+            <p>By donating you can access to:</p>
+            <ul>
+              <li><i class="g-message-square"></i>  Get priority support.</li>
+              <li><i class="g-award"></i>  Be recognized in the community.</li>
+              <li><i class="g-shopping-bag"></i>  Featured positioning of your packages.</li>
+              <li><i class="g-dollar-sign"></i>  Help Open-Source developers.</li>
+              <li><i class="g-plus"></i>  And many other benefits.</li>
+            </ul>
+            <button onclick="window.open('https://www.paypal.me/mkenzo8')" type="button" name="button"><i class="g-paypal"></i> Donate</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="inspiration">
+      <h1>What are you waiting to start developing your projects with Graviton?</h1>
+    </section>
+    <footer>
+      <div class="pant">
+        <div class="side left">
+          <i class="g-graviton"></i>
+        </div><!--
+     --><div class="side right">
+          <div class="linksContainner">
+            <div class="linkGroup">
+              <div class="links">
+                <h3>Resources</h3>
+                <ul>
+                  <li><i class="g-book-open"></i> <a href="/docs">Documentation</a></li>
+                  <li><i class="g-wind"></i> <a href="#">API</a></li>
+                  <li><i class="g-message-square"></i> <a href="#">Support</a></li>
+                  <li><i class="g-paperclip"></i> <a href="#">License</a></li>
+                </ul>
+              </div>
+              <div class="links">
+                <h3>Open Source</h3>
+                <ul>
+                  <li><i class="g-home"></i> <a href="#">Home</a></li>
+                  <li><i class="g-graviton"></i> <a href="#">Graviton</a></li>
+                  <li><i class="g-droplet"></i> <a href="#">Proton Framework</a></li>
+                  <li><i class="g-github"></i> <a href="#">Marc Espín</a></li>
+                  <li><i class="g-gitlab"></i> <a href="#">Crawford.</a></li>
+                </ul>
+              </div>
+              <div class="links">
+                <h3>Legal</h3>
+                <ul>
+                  <li><i class="g-clipboard"></i> <a href="#">TOS</a></li>
+                  <li><i class="g-info"></i> <a href="#">Privacy</a></li>
+                  <li><i class="g-paperclip"></i> <a href="#">Licences</a></li>
+                  <li><i class="g-package"></i> <a href="#">Plugins</a></li>
+                  <li><i class="g-box"></i> <a href="#">Themes.</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shoe">
+        <div class="side left">
+        </div>
+        <div class="side right">
+          <p>Made with <i class="fas fa-heart"></i> - <b>Graviton</b> - 2019</p>
+        </div>
+      </div>
+    </footer>
+    <div id="phoneView" class="phoneTemporalBanner">
+      <div class="contentWrapper">
+        <div class="allW">
+          <div class="waveContainner">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+              <path d="M-3.10,37.00 C148.14,157.39 349.20,-49.98 500.27,73.52 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #FF1A68;"/>
+            </svg>
+          </div><!--
+       --><div class="content">
+
+          </div>
+        </div>
+        <div class="textContainner">
+          <div class="errWrapper">
+            <h1>404</h1>
+            <h3>We're sorry, but right now Graviton mobile it's not a thing :/</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://unpkg.com/current-device@0.7.2/umd/current-device.js"></script>
+  <script src="./js/main.js" charset="utf-8"></script>
+</html>
