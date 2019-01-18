@@ -19,8 +19,33 @@
   color: white;
 }
 
-*::-webkit-scrollbar {
-  width: 0;
+::-webkit-scrollbar {
+    transition: 0.1s;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    transition: 0.15s;
+    width: 3px !important;
+    height: 3px !important;
+    background: gray;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    transition: 0.15s;
+    background: lightgray;
+}
+::-webkit-scrollbar-corner{
+    visibility: hidden;
+    opacity: 0;
+    background: transparent;
 }
 
 html, body {
@@ -85,12 +110,12 @@ nav ul li {
 }
 
 nav ul li:hover {
-  border-color: var(--main-color);
+
   margin: 0 10px;
 }
 
 nav ul li:hover > a {
-  font-weight: 600;
+  font-weight: bold;
 }
 
 nav ul li.active {
